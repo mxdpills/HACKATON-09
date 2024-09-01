@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: pink;
+}
+
+.container {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+.seleccionarBtn {
+    background-color:#d712a6;
+    color: #000000;
+}
+
+.seleccionarBtn:hover{
+    background-color: #000000;
+    color: #d712a6;
+}
+
+#nombreInput {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+#agregarBtn, #seleccionarBtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+}
+
+#agregarBtn {
+    background-color: #20b850;
+    color: black;
+    border: none;
+}
+
+#agregarBtn:hover {
+    background-color: black;
+    color: #20b850;
+}
+
+#listaNombres{
+    list-style-type:none;
+    padding: 0;
+}
+
+#listaNombres li {
+    padding: 10px;
+    margin: 5px 0px;
+    background-color: #ffd9e1;
+    border: 1px solid #714a4a;
+    border-radius: 5px;
+}
+
+#listaNombres li.seleccionado {
+    background-color: #8456d5;
+    border: none;
+    color: white;
+}

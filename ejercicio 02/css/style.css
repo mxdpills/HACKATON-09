@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+.contenedor {
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+#frase {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: black;
+}
+
+#btnMostrar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(17, 125, 152);
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#btnMostrar:hover{
+    background-color:black;
+}
